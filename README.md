@@ -1,5 +1,5 @@
 # RandomQuoteGenerator
-Tiny random quote generator app.
+Random quote generator
 
 This is a small application that generates a random quote on the click of a button.
 
