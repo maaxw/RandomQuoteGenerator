@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>RandomQuoteGenerator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.4.0.slim.js"
+  integrity="sha256-milezx5lakrZu0OP9b2QWFy1ft/UEUK6NH1Jqz8hUhQ="
+  crossorigin="anonymous"></script>
+      </head>
+      <body>
+
+
+        <section class="hero is-failure is-fullheight">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title" style="text-align:center;">QuoteGenerator!</h1>
+              <h5 class="has-text-white has-text-centered "> A collection of random famous quotes. </h5>
+              <br>
+              <div class="box has-text-centered">
+
+                 <i class="fas fa-quote-left"></i><h4 id="quoteDisplay"><em> Click the New Quote button!</em></h4><i class="fas fa-quote-right"></i>
+
+
+                               </div>
+
+              <!-- Copy target -->
+              <div class="container has-text-centered">
+                  <button onclick="newQuote()" class="button is-large button is-primary is-inverted"> New Quote </button>
+              </div>
+<div class="container has-text-centered">
+              <button class="button is-small button is-primary is-inverted is-outlined" id="copyButton"
+                data-clipboard-action="copy" data-clipboard-target="h4#quoteDisplay">Copy</button>
+</div>
+
+                </div>
+          </div>
+          <p class="source-link"> <a href="https://github.com/maaxw/RandomQuoteGenerator" target="_blank"> <i class="fas fa-code"></i> View source code </a> </p>
+        </section>
+
+</section>
+
+
+
+      <script src="javascript.js"></script>
+      <footer class="footer">
+  <div class="content has-text-centered">
+    <p><a href="https://github.com/maaxw" target="_blank"><i class="fab fa-github" id="github"></i></a></p>
+  </div>
+</footer>
+      </body>
+        <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
+        <script type="text/javascript">
+        var clipboard = new Clipboard('#copyButton');
+
+        clipboard.on('success', function(e) {
+          console.log(e);
+        });
+
+        clipboard.on('error', function(e) {
+          console.log(e);
+        });
+
+
+        </script>
+
+    </html>

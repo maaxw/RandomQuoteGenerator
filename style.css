@@ -1,0 +1,73 @@
+body {
+  background: #007991;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.title {
+  color:white;
+  font-size: 3em;
+}
+
+a {
+  color: #bfbfbf;
+  font-size: 1em;
+}
+
+#quoteDisplay{
+  font-style: italic;
+}
+
+
+.fab fa-github {
+  font-size: 1.5em;
+}
+
+#github {
+  font-size:1.5em;
+}
+
+.button {
+  text-align: center;
+}
+
+#copyButton {
+  margin: 20px;
+  /*
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /*position: absolute;
+  right: .25rem;
+  bottom: .25rem;
+  background: 0 0;
+  border: none;
+  color: #4a4a4a;
+  cursor: pointer;
+  font-size: .625rem;
+  outline: 0;
+  padding-bottom: 5px'
+  padding-top: 0;
+  text-align: right;*/
+}
+
+.source-link {
+  color: #eee;
+  text-align: center;
+}
+
+.box {
+  font-size: 2em;
+  color: #a9a9a9;
+}
+
+.svg-inline--fa fa-github fa-w-16 {
+  font-size: 1em;
+}
+
+
+.footer {
+    background: transparent;
+}
