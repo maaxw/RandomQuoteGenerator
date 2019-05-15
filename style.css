@@ -43,7 +43,7 @@ a {
   bottom: .25rem;
   background: 0 0;
   border: none;
-  color: #4a4a4a;
+  color: #b44d85;
   cursor: pointer;
   font-size: .625rem;
   outline: 0;
@@ -64,6 +64,11 @@ a {
 
 .svg-inline--fa fa-github fa-w-16 {
   font-size: 1em;
+}
+
+.button.is-primary.is-inverted {
+    background-color: #fff;
+    color: #b44d85;
 }
 
 
